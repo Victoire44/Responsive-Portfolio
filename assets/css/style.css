@@ -218,9 +218,62 @@ input[type="submit"] {
 }
 
 
+/* 
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .container{
+    width: 60%;
+  }
+  #logo {
+    margin-left: 50px;
+  }
+  nav {
+    margin-right: 50px;
+  }
+
+.main-section{
+ 
+  margin-left: 50px;
+} 
+
+}  */
+
+
+@media screen and (max-width: 768px) and (min-width: 639px) {
+ .container{
+   max-width: 700px;
+ }
+
+.main-section{
+  width: 100%;
+} 
+
+nav{
+  margin-right: 20px;
+}
+
+.auth-image {
+  width: 50%;
+}
+
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+} 
+
 @media screen and (max-width: 640px) {
   #masterhead{
     position:static; 
+  }
+
+  #main-container{
+    max-width: 500px;
   }
 
   #logo {
