@@ -28,7 +28,7 @@ p {
 
 p:last-child {
   margin-bottom: 0;
-} 
+}
 
 h1,
 h2,
@@ -53,7 +53,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed; 
+  position: fixed;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -110,7 +110,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -187,15 +188,15 @@ h3, h2 {
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -207,7 +208,7 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
   color: #ffffff;
@@ -217,33 +218,36 @@ input[type=submit] {
 }
 
 
-@media screen and (max-width: 980px){
-#logo{
-  width: 100%;
-}
+@media screen and (max-width: 640px) {
+  #masterhead{
+    position:static; 
+  }
 
-
-@media screen and (max-width: 768px){
-
-}
-
-@media screen and (max-width: 640px){
-  #logo{
+  #logo {
     width: 100%;
     font-size: 26px;
   }
 
- nav {
-  float:  none;
-  text-align: center;
-  margin-top: 0;
+  nav {
+    float: none;
+    text-align: center;
+    margin-top: 0;
   }
-
-  nav a{
+ 
+  nav a {
     margin: 20px 0 20px 15px;
   }
 
   .main-section{
-  margin-top: 40px;
+    margin-top: 50px;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
   }
 }
